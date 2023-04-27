@@ -1,0 +1,129 @@
+@media screen and (max-width: 600px) {
+  form {
+      max-width: 100%;
+  }
+
+  input[type="lilbtn"] {
+      width: 100%;
+  }
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+
+body {
+  background-color: #f2f2f2;
+}
+
+form {
+  background-color: #fff;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"]
+input[type="date"],
+input[type="password"],
+textarea {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.lilbtn, .submit {
+  background-color: #1780da;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.lilbtn:hover {
+  background-color: #146fbf;
+
+
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  transition: filter 0.2s ease-in-out;
+}
+
+.logo img:hover {
+  filter: brightness(80%);
+}
+
+.catchphrase
+{
+  color: #1780da; 
+  margin-top: 50px; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+  
+}
+
+.phrase {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  padding: 0%;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  width: 60px;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid 2px #1780da;
+  margin-left: 49%;
+  border-radius: 4px;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+a{
+  display: inline;
+}
